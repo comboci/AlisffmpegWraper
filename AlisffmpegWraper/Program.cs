@@ -1,9 +1,10 @@
-﻿using System;
+﻿using AlisffmpegWraper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace AlisffmpegWraper
+namespace AlisAlisAlisffmpegWraper
 {
     static class Program
     {
@@ -15,7 +16,7 @@ namespace AlisffmpegWraper
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frm_Main());
         }
     }
 }
